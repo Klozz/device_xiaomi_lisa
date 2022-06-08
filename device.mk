@@ -356,6 +356,12 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common.vendor \
     libsfplugin_ccodec_utils.vendor
 
+# Netflix
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.netflix.bsp_rev=Q7325-SPY-33758-1 \
+    ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187 \
+    ro.netflix.signup=1
+
 # Network
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
