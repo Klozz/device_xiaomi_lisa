@@ -269,3 +269,6 @@ persist.vendor.usb.config=mtp,adb
 
 # Wifi
 wifi.aware.interface=wifi-aware0
+
+# Fingerprint
+ro.hardware.fingerprint=fpc
